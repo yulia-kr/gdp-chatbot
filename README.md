@@ -94,6 +94,3 @@ This is the entry point for running the chatbot. It sets up the environment, loa
 - The transformed GDP data will be saved in the `csv_source/` directory.
 - Make sure to clean your Git history if you accidentally commit sensitive information (e.g., API keys).
 
-## License
-
-This project is licensed under the MIT License.
