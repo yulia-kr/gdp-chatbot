@@ -1,6 +1,4 @@
-openai>=1.14.0
+llama-index
 pandas
-llama_index
-scikit-learn
-statsmodels
+openai
 python-dotenv
