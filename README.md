@@ -1,5 +1,4 @@
-
-# GDP Chatbot Project
+# GDP Chatbot 
 
 This project is an AI-driven chatbot that allows users to interact with a World Bank GDP dataset. The chatbot uses a language model to interpret user queries and provides responses based on country GDP data from various years.
 
