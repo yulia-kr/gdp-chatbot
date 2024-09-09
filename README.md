@@ -81,7 +81,7 @@ Here are some example queries you can ask the chatbot:
 ## File Descriptions
 
 ### `src/transform_csv.py`
-This script is responsible for transforming the original `gdp_data.csv` from a wide format (with years as columns) into a long format, making it easier to work with for querying GDP values over time.
+This script is responsible for transforming the original `data/gdp_data.csv` from a wide format (with years as columns) into a long format, making it easier to work with for querying GDP values over time.
 
 ### `src/gdp_chat.py`
 This file contains the main logic for interpreting user queries and fetching the relevant GDP data. It also defines how to interact with the preprocessed GDP dataset and the vector index.
