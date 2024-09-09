@@ -35,17 +35,7 @@ Add your OpenAI API key to a `.env` file at the root of the project:
 OPENAI_API_KEY=your_openai_api_key
 ```
 
-### 3. Preprocess the GDP Data
-
-Before running the chatbot, transform the provided `gdp_data.csv` file into a format suitable for querying. This can be done using the `transform_csv.py` script:
-
-```bash
-python src/transform_csv.py
-```
-
-The transformed CSV will be saved in the `csv_source/` folder.
-
-### 4. Run the Chatbot
+### 3. Run the Chatbot
 
 Once the data is processed, you can start the chatbot by running the `main.py` script:
 
@@ -61,7 +51,7 @@ You can now ask questions about the GDP of various countries, such as:
 > Show the top 5 countries by GDP in 2019.
 ```
 
-### 5. Chatbot Commands
+### 4. Chatbot Commands
 
 The chatbot can understand queries about:
 - GDP for a specific country and year
@@ -70,7 +60,7 @@ The chatbot can understand queries about:
 - Average GDP growth rates
 - Global GDP trends and distribution
 
-### 6. Example Queries
+### 5. Example Queries
 
 Here are some example queries you can ask the chatbot:
 - "What was the GDP of Brazil in 2010?"
