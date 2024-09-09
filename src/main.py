@@ -1,4 +1,9 @@
-from gdp_chat import load_gdp_data, create_load_index, CondensePlusContextChatEngine, llm, memory, chatbot_interface
+from gdp_chat import (load_gdp_data, 
+                      create_load_index, 
+                      CondensePlusContextChatEngine,
+                      llm, 
+                      memory, 
+                      chatbot_interface)
 
 if __name__ == "__main__":
     # Load GDP data and create or load the index

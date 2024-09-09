@@ -16,7 +16,7 @@ from llama_index.core.chat_engine import CondensePlusContextChatEngine
 from transform_csv import transform_csv, FOLDER_NAME, FILE_NAME
 from dotenv import load_dotenv
 
-SOURCE_FILE_NAME = "gdp_data.csv" 
+SOURCE_FILE_NAME = "data/gdp_data.csv" 
 PERSIST_DIR = "./storage" 
 
 load_dotenv(override=True)
